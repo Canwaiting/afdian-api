@@ -10,10 +10,10 @@ def get_link(img_path):
     url = 'https://afdian.net/api/upload/common-pic'
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'}
     cookies = {
-                'auth_token': '6f1ed28d2f8821b6394b909fe5533491_20230319122938',
-                '_gid':'GA1.2.153730405.1679200180',
-                '_ga_6STWKR7T9E': 'GS1.1.1679221713.27.0.1679221713.60.0.0',
-                '_ga': 'GA1.1.1649184242.1668054313'
+                'auth_token': '',
+                '_gid':'',
+                '_ga_6STWKR7T9E': '',
+                '_ga': ''
     }
 
     # 2、使用 MultipartEncoder 创建文件上传的 payload
@@ -46,10 +46,10 @@ def publish(publish_data):
     url = 'https://afdian.net/api/post/publish'
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'}
     cookies = {
-                'auth_token': '6f1ed28d2f8821b6394b909fe5533491_20230319122938',
-                '_gid':'GA1.2.153730405.1679200180',
-                '_ga_6STWKR7T9E': 'GS1.1.1679221713.27.0.1679221713.60.0.0',
-                '_ga': 'GA1.1.1649184242.1668054313'
+                'auth_token': '',
+                '_gid':'',
+                '_ga_6STWKR7T9E': '',
+                '_ga': ''
     }
     title = publish_data['title']
     content = publish_data['content']
